@@ -20,7 +20,7 @@ jobs:
         distribution: 'temurin'
         cache: gradle
 
-    - name:chmod
+    - name: chmod
       Run chmod +x VirtualApp/gradlew
     - name: Build with Gradle
       run: VirtualApp/gradlew build
